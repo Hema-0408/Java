@@ -1,0 +1,18 @@
+//Number Range Check
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n=sc.nextInt();
+        int l=sc.nextInt();
+        int r=sc.nextInt();
+        if(n>l && n<r)
+        {
+            System.out.print("yes");
+        }
+        else
+        {
+            System.out.print("no");
+        }
+    }
+}
